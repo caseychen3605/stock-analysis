@@ -12,7 +12,7 @@ The data that is presented includes two charts with stock information on 12 diff
 ### Analysis
 Before refactoring the code, I began by copying the code that was needed to create the input box, chart headers, ticker array, and to activate the appropriate worksheet. The steps were then listed out in order to set the structure for the refactoring. Below is the instruction and code as written in the file. 
 
-'1a) Create a ticker Index
+    '1a) Create a ticker Index
     tickerIndex = 0
 
     '1b) Create three output arrays
@@ -53,7 +53,7 @@ Before refactoring the code, I began by copying the code that was needed to crea
     
     Next i
     
-  '4) Loop through your arrays to output the Ticker, Total Daily Volume, and Return.
+    '4) Loop through your arrays to output the Ticker, Total Daily Volume, and Return.
     For i = 0 To 11
         
         Worksheets("All Stocks Analysis").Activate
